@@ -1,0 +1,55 @@
+body {
+     background-image: url("images/color.jpg"); 
+      background-repeat: no-repeat;
+     background-size: 100%; 
+     color: white;
+     overflow: hidden;
+  } 
+    
+
+.container{
+     display:flex; 
+     justify-content: center;
+     margin-top: 8%;
+     font-size: 200px;
+     font-family: Georgia, 'Times New Roman', Times, serif ;
+     
+}
+
+
+.anim{
+    margin-right: 8%;
+ position: relative;
+top: 10%;
+left: 18%; 
+transform:translate(-50%,-50%); 
+animation: orbit2 4s infinite;
+}
+
+
+@-webkit-keyframes orbit2 {
+    from {  -webkit-transform: rotate(0deg) translateX(-200px) rotate(0deg); }
+    to   {  -webkit-transform: rotate(360deg) translateX(-200px) rotate(-360deg); }
+}
+
+
+.o{
+box-shadow: 0px 10px 100px white;
+width: 150px;
+height: 150px;
+margin-top: 15%;
+background-color: white;
+border-radius: 50%;
+margin-right: 15%;
+}
+@media (max-width: 1200px){
+    .o{
+        background-color: yellow;
+        box-shadow: 0px 10px 100px yellow;
+        margin-top: 20%;
+    }
+}
+
+
+
+  
