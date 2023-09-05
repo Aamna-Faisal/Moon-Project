@@ -1,5 +1,5 @@
 body {
-     background-image: url("images/color.jpg"); 
+     background-image: url("images/image.webp"); 
       background-repeat: no-repeat;
      background-size: 100%; 
      color: white;
@@ -10,7 +10,7 @@ body {
 .container{
      display:flex; 
      justify-content: center;
-     margin-top: 8%;
+     margin-top: 5%;
      font-size: 200px;
      font-family: Georgia, 'Times New Roman', Times, serif ;
      
@@ -37,18 +37,12 @@ animation: orbit2 4s infinite;
 box-shadow: 0px 10px 100px white;
 width: 150px;
 height: 150px;
-margin-top: 15%;
+margin-top: 17%;
 background-color: white;
 border-radius: 50%;
 margin-right: 15%;
 }
-@media (max-width: 1200px){
-    .o{
-        background-color: yellow;
-        box-shadow: 0px 10px 100px yellow;
-        margin-top: 20%;
-    }
-}
+
 
 
 
